@@ -1,0 +1,26 @@
+# Python basics
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Conda
+.conda/
+envs/
+
+# Project specific
+data/raw/*.pkl
+data/raw/*.csv
+data/processed/
+models/checkpoints/*.pt
+*.log
+
+# Large data files
+*.pkl
+*.h5
+*.csv
+*.zip
+
+# IDEs
+.vscode/
+.idea/
