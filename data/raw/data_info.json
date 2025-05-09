@@ -1,0 +1,11 @@
+{
+    "timeframe_days": 365,
+    "last_update": "2025-05-09 11:36:18",
+    "full_download": false,
+    "tickers_count": 503,
+    "trading_days": 250,
+    "date_range": {
+        "start": "2024-05-09",
+        "end": "2025-05-08"
+    }
+}

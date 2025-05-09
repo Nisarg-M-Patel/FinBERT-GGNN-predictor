@@ -1,25 +1,19 @@
 name: sp500-env
 channels:
-  - pytorch
-  - apple
   - conda-forge
+  - pytorch
   - defaults
 dependencies:
   - python=3.10
   - numpy>=1.22.0
   - pandas>=1.5.0
-  - scikit-learn>=1.2.0
-  # PyTorch for M1 Mac
-  - pytorch::pytorch>=2.0.0
-  - pytorch::torchvision>=0.15.0
-  - apple::tensorflow-deps
-  # Other dependencies
-  - networkx>=3.0.0
   - matplotlib>=3.6.0
-  - pip>=22.0.0
+  - scikit-learn>=1.2.0
+  - lxml
+  - networkx>=3.0.0
+  - pytorch
+  - torchvision
+  - pip
   - pip:
     - torch-geometric>=2.3.0
     - yfinance>=0.2.28
-    # Additional M1-specific packages
-    - tensorflow-macos>=2.9.0
-    - tensorflow-metal>=0.5.0  # Metal GPU acceleration

@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-from models.gnn_model import StockGNN, GraphLevelStockGNN, SectorStockGNN
+from models.gnn.gnn_model import StockGNN, GraphLevelStockGNN, SectorStockGNN
 
 
 class GNNTrainer:
